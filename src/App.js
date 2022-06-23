@@ -1,12 +1,20 @@
 import './App.css';
+import './components/navbar.css';
+import './components/Home.css';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
+import Home from './components/Home';
+
 
 function App() {
   return(
-    <>
+    
     
      
+ 
+    <Navbar/>
+    <Home/>
+ 
     
     </>
   );
