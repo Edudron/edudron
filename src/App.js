@@ -1,9 +1,11 @@
 import './App.css';
 import './components/navbar.css';
 import './components/Home.css';
+import './components/footer.css';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import Home from './components/Home';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -14,7 +16,7 @@ function App() {
  
     <Navbar/>
     <Home/>
- 
+    <Footer/>
     
     </>
   );
