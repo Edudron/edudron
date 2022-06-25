@@ -8,11 +8,7 @@ export default function Footer() {
           
           <p>
             Who We Are Datagami is a new age digital technology, consulting and
-            effective business process management service company. We help our
-            customers to align their business with new age digital technologies
-            such as artificial intelligence, machine learning, deep learning,
-            Big data analytics, cyber security, robotics process automation, and
-            blockchain. Our education brand
+            effective business process management service company.
           </p>
         </div>
         <div className="col">
@@ -39,7 +35,7 @@ export default function Footer() {
           <form >
             <i className="far fa-envelope"></i>
             <input type="email" placeholder="Enter your email" required/>
-            <button type="submit"><i className="fas fa-arrow-right"></i></button>
+            <button type="box"><i className="fas fa-arrow-right"></i></button>
           </form>
           <div className="social-media">
           <i >Facebook</i>
@@ -52,7 +48,7 @@ export default function Footer() {
         <hr/>
         </div>
         <p className="copyright">Edu-Dron © 2022 -All Rights Reserved </p>
-
+        
     </footer>
   );
 }
