@@ -41,7 +41,7 @@ nav .logo {
 	display: flex;
 	align-items: center;
 	font-size: 24px;
-	color: var(--light);
+	color: var(--da);
 }
 nav .links {
 	float: right;
