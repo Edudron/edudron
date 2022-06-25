@@ -4,24 +4,37 @@ import { propTypes } from 'react-bootstrap/esm/Image'
 
 export default function Navbar(props) {
   return (
-    <section>
+    <header>
     <nav>
-    <div className='logo'>Edu-Dron</div>
-    <input type="checkbox" id="click"/>
-    <label for="click" class="menu-btn">
-      <i className='fas fa-bars'></i>
-    </label>
-    <ul>
-      <li><a className='active' href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Contact Us</a></li>
-      <li className='login'><a href="#">Login</a></li>
+    <input id="nav-toggle" type="checkbox"/>
+    <div class="logo">Edu<strong>Dron</strong></div>
+    <ul class="links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a>
+      <div class='sub-nav'>
+        <ul>
+        <li><a href="#">Nikhil</a></li>
+        <li><a href="#">Nikhil</a></li>
+        <li><a href="#">Nikhil</a></li>
+        <li><a href="#">Nikhil</a></li>
+        </ul>
+      </div>
+      </li>
+      <li><a href="#Services">Services</a></li>
+      <li><a href="#Contact Us">Contact Us</a></li>
+      <button id="login" href="#Login">Login</button>
+      <button id='sign-up' href="#Login">Sign Up</button>
     </ul>
+    
+    
+    <label for="nav-toggle" class="icon-burger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </label>
   </nav>
-
-  </section>
-
+  
+  </header>
     )
 }
 
