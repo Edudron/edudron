@@ -1,11 +1,12 @@
-import './App.css';
-import './components/navbar.css';
-import './components/Home.css';
-import './components/footer.css';
+import './PageCss/App.css';
+import './PageCss/navbar.css';
+import './PageCss/Home.css';
+import './PageCss/footer.css';
 import Navbar from './components/Navbar';
-import TextForm from './components/TextForm';
-import Home from './components/Home';
+import Home from './Home';
 import Footer from './components/Footer';
+// import Title from './Title'
+// import TextForm from './components/TextForm';
 
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
      <> 
  
     <Navbar/>
+    
+    {/* <Title/> */}
     <Home/>
     <Footer/>
     
