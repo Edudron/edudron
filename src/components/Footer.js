@@ -2,57 +2,46 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer>
-      <div className="row">
-        <div className="col">
-          
-          <p>
-            Who We Are Datagami is a new age digital technology, consulting and
-            effective business process management service company. We help our
-            customers to align their business with new age digital technologies
-            such as artificial intelligence, machine learning, deep learning,
-            Big data analytics, cyber security, robotics process automation, and
-            blockchain. Our education brand
-          </p>
-        </div>
-        <div className="col">
-        <h3>Office <div className="underline"> <span></span></div></h3>
-        <p>Datagami</p>
-        <p>
-          6th Floor, “A” wing, HDIL Kaledonia Business Park, Sahar Road, Andheri
-          (East), Mumbai 400069.
-        </p>
-        <p className="emailID">sales@datagami.in</p>
-        <p> +91 22 6848 8300</p>
-        </div>
-        <div className="col">
-        <h3>Links <div className="underline"> <span></span></div></h3>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">About Us</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
-        </div>
-        <div className="col">
-          <h3>Newsletter <div className="underline"> <span></span></div></h3>
-          <form >
-            <i className="far fa-envelope"></i>
-            <input type="email" placeholder="Enter your email" required/>
-            <button type="submit"><i className="fas fa-arrow-right"></i></button>
-          </form>
-          <div className="social-media">
-          <i >Facebook</i>
-          <i >Instagram</i>
-          <i >Twitter</i>
-          </div>
-        </div>
-        </div>
-        <div>
-        <hr/>
-        </div>
-        <p className="copyright">Edu-Dron © 2022 -All Rights Reserved </p>
+   <footer class="footer-distributed">
+		<div class="footer-left">
+			<h3>Data<span>Gami</span></h3>
+			<div class="footer-info">
+			<ul>	
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">SERVICES</a></li>
+				<li><a href="#">PRIVACY POLICY</a></li>
+				<li><a href="#">TERMS & CONDITIONS</a></li>
+			</ul>	
+            </div>
+		</div>
+		<div class="footer-center">
+			<div>
+				<i class="fa fa-map-marker"></i>
+				<p><span>6th Floor, “A” wing, HDIL Kaledonia Business Park</span> Sahar Road, Andheri (East), Mumbai 400069.</p>
+			</div>
+			<div>
+				<i class="fa fa-phone"></i>
+				<p>+91 22 6848 8300</p>
+			</div>
+			<div>
+				<i class="fa fa-envelope"></i>
+				<p><a href="mailto:support@company.com">sales@gatagami.com</a></p>
+			</div>
+		</div>
 
-    </footer>
+		<div class="footer-right">
+			<p class="footer-company-about">
+				<span>About the company</span>
+				Datagami is a new age digital technology, consulting and effective business process management service company. Whelp our customers to align their business with new age digital technologies such as artificial intelligencemachine learning, deep learning, Big data analytics, cyber security, robotics process automation, and blockchain.
+			</p>
+			<div class="footer-icons">
+				<a href="#"><i class="fab fa-facebook"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+				<a href="#"><i class="fab fa-linkedin"></i></a>
+				<a href="#"><i class="fab fa-github"></i></a>
+			</div>
+		</div>
+	</footer>
+    <section>© 2022 Copyright: DataGami</section>
   );
 }
