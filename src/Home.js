@@ -1,6 +1,8 @@
 import React from 'react'
 import './PageCss/Home.css'
+import './PageCss/subscription.css'
 import UpperTitle from './homepage/UpperTitle'
+import Subscription from './components/Subscription'
 
 
 
@@ -9,11 +11,14 @@ function Home() {
     <>
     <div className="Home">
       <UpperTitle/>
+      
     </div>
+    
     
     <div className='abhi'> 
         This is abhishek
     </div>
+    <div><Subscription/></div>
     
     </>
   )

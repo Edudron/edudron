@@ -41,7 +41,7 @@ nav .logo {
 	display: flex;
 	align-items: center;
 	font-size: 24px;
-	color: var(--light);
+	color: var(--da);
 }
 nav .links {
 	float: right;
@@ -85,7 +85,7 @@ nav .icon-burger {
 nav .icon-burger .line {
 	width: 30px;
 	height: 5px;
-	background-color: var(--light);
+	background-color: var(--da);
 	margin: 5px;
 	border-radius: 3px;
 	transition: all .3s ease-in-out;
