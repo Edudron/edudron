@@ -41,7 +41,7 @@ export default function Footer() {
 				<a href="#"><i class="fab fa-github"></i></a>
 			</div>
 		</div>
+	  <section>© 2022 Copyright: DataGami</section>
 	</footer>
-    <section>© 2022 Copyright: DataGami</section>
   );
 }
