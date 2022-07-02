@@ -16,7 +16,7 @@ function Home() {
     
     
     <div className='abhi'> 
-        This is abhishek
+        
     </div>
     <div><Subscription/></div>
     

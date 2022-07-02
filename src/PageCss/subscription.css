@@ -30,7 +30,6 @@
   grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
   grid-gap: 25px;
 }
-
 .price-col{
     background-color: rgba(255, 255, 255, 0.326);
     padding: 10% 15%;
@@ -73,14 +72,17 @@
     background: transparent;
     color: rgb(0, 0, 0);
     font-size: 15px;
-    border: 1px solid #e33058;
+    border: 1px solid #4343436b;
     border-radius: 6px;
     margin-top: 30px ;
     cursor: pointer;
     transition: background 0.3s;
 }
 .price-col button:hover{
-    background: #e33058;
+    background: #ff6600;
+    color: aliceblue;
+    font-weight: 500;
+    transform: scale(1.05) translateY(.125rem);
 }
 .price-col{
 border: .0625rem solid rgba(23,31,56,.125);
