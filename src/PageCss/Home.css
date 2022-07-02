@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  
 } 
 
 div .abhi{
@@ -11,7 +12,6 @@ div .abhi{
     text-align: center;
     font-size: 50px;
     margin-top: 300px;
-
 }
 
 .Home  {

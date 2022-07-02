@@ -4,7 +4,7 @@ function Subscription() {
   return (
     <div>
     <div class="container">
-    <h2 id="choose">Choose your plan</h2>
+    <h2 id="choose">Choose Your Plan</h2>
     <div class="price-row">
     <div class="price-col">
     <p>Sliver</p>
@@ -43,7 +43,7 @@ function Subscription() {
         <li>1 nothing </li>
         <li>1 nothing </li>
     </ul>
-    <button>Add to Cart</button>
+    <button className='btncart'>Add to Cart</button>
 </div>
 </div>
 </div>

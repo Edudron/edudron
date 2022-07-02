@@ -65,11 +65,11 @@ nav .links a {
 	text-decoration: none;
 	/* margin-top: 1em; */
 }
-nav .links a:hover{
-border-bottom: 7px solid rgb(53, 53, 53);
+.links li a:hover{
+	border-bottom: 3px solid #ff6600;
+	border-radius: 2px;
+	/* background-color: #757575; */
 
-
-  
 }
 #nav-toggle {
 	position: absolute;
@@ -108,14 +108,17 @@ nav .icon-burger .line {
 		height: auto;
 		flex-direction: column;
 		justify-content: space-evenly;
-		background-color: var(--dark);
+		background-color: rgb(0, 0, 0);
 		overflow: hidden;
 		box-sizing: border-box;
 		transition: all .5s ease-in-out;
-		opacity: 75%;
+		opacity: 80%;
+
 	}
 	nav .links a {
 		font-size: 20px;
+		color: cornsilk;
+
 	}
 	nav :checked ~ .links {
 		bottom: 0;
@@ -130,7 +133,7 @@ nav .icon-burger .line {
 		transform: translateY(-10px) rotate(-225deg);
 	}
 	nav :checked ~ .icon-burger .line:nth-child(2) {
-		opacity: 0;
+		opacity: 0%;
 	}
 	
 }
@@ -140,9 +143,39 @@ nav .icon-burger .line {
 .links li:hover .sub-nav{
 	display: flex;
 	position: absolute;
-	background:var(--li);
-	margin-top: 0px;
+	background:#F7F7F7;
+	margin-top: 0;
 	margin-left: -15px;
+	display: transparent;
+}
+.links li:hover .sub-nav ul{
+	display: block;
+	margin: 12px;
+}
+.links li:hover .sub-nav ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1 px dotted #ff6600;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+	display: flex;
+}
+.sub-nav ul li a:hover{
+	color: #000000;
+
+}
+.sub-nav-2{
+	display: none;	
+}
+.Hover-sub-nav:hover .sub-nav-2{
+	position: absolute;
+	display: block;
+	margin-top: -20px;
+	margin-left: 123px;
+	background: #F7F7F7;
+	
+	 
 }
 #login {
   backface-visibility: hidden;
