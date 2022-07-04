@@ -1,0 +1,44 @@
+body{
+    background: white;
+}
+
+.sign-form{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-body{
+    text-align: left;
+
+}
+
+.form-title {
+    font-size: 36px;
+}
+
+.form-body > *{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.form__label{
+    width: 50%;
+}
+
+.form_input{
+    width: 60%;
+}
+
+.end{
+    text-align: center;
+}
