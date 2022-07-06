@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from "react-router-dom";
+// import Login from './loginpage/Login';
+// import Signup from './loginpage/Signup';
 // import { propTypes } from 'react-bootstrap/esm/Image'
 
 export default function Navbar(props) {
@@ -64,7 +66,7 @@ export default function Navbar(props) {
         </ul>
       </div></li>
       <li><a href="#Contact Us">Contact Us</a></li>
-      <button id="login" href="#Login">Login</button>
+      <button id="login" href="./loginpage/Login.js">Login</button>
       <button id='sign-up' href="#Login">Sign Up</button>
     </ul>
     

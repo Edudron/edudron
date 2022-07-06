@@ -5,8 +5,6 @@ import UpperTitle from "./homepage/UpperTitle";
 import Subscription from "./components/Subscription";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import "./PageCss/navbar.css";
-import "./PageCss/footer.css";
 
 function Home() {
   return (
@@ -16,8 +14,7 @@ function Home() {
         <UpperTitle />
       </div>
 
-      <div className="abhi"></div>
-      <div>
+      <div className="abhi">
         <Subscription />
       </div>
 
