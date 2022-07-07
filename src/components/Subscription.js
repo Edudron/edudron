@@ -3,7 +3,7 @@ import React from 'react'
 function Subscription() {
   return (
     <div>
-    <div class="container">
+    <div class="containerr">
     <h2 id="choose">Choose Your Plan</h2>
     <div class="price-row">
     <div class="price-col">
