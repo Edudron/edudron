@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
+import "../PageCss/Login.css";
 
-function App() {
+function Login() {
   const [errorMessages, setErrorMessages] = useState({});
   const [isSubmitted, setIsSubmitted] = useState(false);
   
@@ -74,4 +75,4 @@ function App() {
   );
 }
 
-export default App;
+export default Login;
