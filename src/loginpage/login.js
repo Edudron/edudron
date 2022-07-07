@@ -47,17 +47,18 @@ function App() {
     <div className="form">
       <form onSubmit={handleSubmit}>
         <div className="input-container">
-          <label>Username/UserID</label>
+          <label>Username/UserID: </label>
           <input type="text" name="uname" required />
           {renderErrorMessage("uname")}
         </div>
         <div className="input-container">
-          <label>Password </label>
+          <label>Password: </label>
           <input type="password" name="pass" required />
           {renderErrorMessage("pass")}
+          <label><span>Forgot Password ?</span></label>
         </div>
         <div className="button-container">
-          <input type="submit" />
+          <input type="submit" value="Login" name="" />
         </div>
       </form>
     </div>
