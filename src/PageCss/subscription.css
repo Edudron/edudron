@@ -30,7 +30,7 @@
   grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
   grid-gap: 25px;
 }
-.price-col{
+.price-coll{
     background-color: rgba(255, 255, 255, 0.326);
     padding: 10% 15%;
     border-radius: 10px;
@@ -39,34 +39,35 @@
     
 
 }
-.price-col p{
+.price-coll p{
     font-size: 22px;
 }
-.price-col h3{
+.price-coll h3{
     font-size: 44px;
     font-weight: 500;
     margin: 20px 0 40px;
 }
-.price-col h3 span{
+.price-coll h3 span{
     font-size: 16px;
 }
-.price-col ul{
+.price-coll ul{
     text-align: left;
     margin: 20px 0;
     color: rgb(0, 0, 0);
     list-style: none;
 
 }
-.price-col ul li{
+.price-coll ul li{
  margin: 15px 0;   
+ font-size: medium;
 }
-.price-col ul li::before{
+.price-coll ul li::before{
     content: '\2022';
     color: rgb(0, 0, 0);
     font-weight: bold;
     margin-right: 8px;
 }
-.price-col button{
+.price-coll button{
     width: 100%;
     padding: 14px 0;
     background: transparent;
@@ -78,13 +79,13 @@
     cursor: pointer;
     transition: background 0.3s;
 }
-.price-col button:hover{
+.price-coll button:hover{
     background: #ff6600;
     color: aliceblue;
     font-weight: 500;
     transform: scale(1.05) translateY(.125rem);
 }
-.price-col{
+.price-coll{
 border: .0625rem solid rgba(23,31,56,.125);
 border-top-color: rgba(23, 31, 56, 0.125);
 border-top-style: solid;

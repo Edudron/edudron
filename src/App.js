@@ -3,9 +3,10 @@ import "./PageCss/App.css";
 import "./PageCss/navbar.css";
 import "./PageCss/Home.css";
 import "./PageCss/footer.css";
+import "./PageCss/subscription.css";
 import Navbar from "./components/Navbar";
-import Login from "./loginpage/Login";
-import Signup from "./loginpage/Signup";
+// import Login from "./loginpage/Login";
+// import Signup from "./loginpage/Signup";
 import DemoCreater from "./components/DemoCreater";
 import Home from "./Home";
 // import AboutUs from './components/AboutUs'; // <------ {CSS issues}
@@ -13,18 +14,19 @@ import Home from "./Home";
 function App() {
   return (
     < >
-      <Navbar />
+      {/* <Navbar /> */}
+      <Home/>
       <DemoCreater />
       
-      <Routes>
+      {/* <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/contact" element={<Signup />} />
-        <Route path="/creater" element={<DemoCreater />} />
+        <Route path="/creater" element={<DemoCreater />} /> */}
         {/* <Route path="/about" element={<AboutUs/>} /> */}
-        <Route
+        {/* <Route
           path="*"
           element={
             <div>
@@ -32,7 +34,7 @@ function App() {
             </div>
           }
         />
-      </Routes>
+      </Routes>  */}
     </>
   );
 }
