@@ -16,7 +16,7 @@ function Home() {
       
       <div className="abhi">
         <Subscription />
-      </div>
+      </div> 
 
       <div>
         <Footer />
