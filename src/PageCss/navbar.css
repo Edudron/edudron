@@ -6,12 +6,13 @@ button:focus,
 .navbar-toggler:focus {
 	outline: none;
 	box-shadow: none;
-	background-color:#3F3B51;
+	background-color:#F7F7F7;
 }
 
 header {
 	background-color: #F7F7F7;
 	padding: 5px 0;
+	border-bottom: 1px solid #cbcbcb;
 
 }
 

@@ -6,7 +6,7 @@ function Subscription() {
     <div class="containerr">
     <h2 id="choose">Choose Your Plan</h2>
     <div class="price-row">
-    <div class="price-col">
+    <div class="price-coll">
     <p>Sliver</p>
     <h3>1$ <span>/ month</span></h3>
     <ul>
@@ -19,7 +19,7 @@ function Subscription() {
     </ul>
     <button >Add to Cart</button>
 </div>
-<div class="price-col">
+<div class="price-coll">
     <p>Gold</p>
     <h3>5$ <span>/ month</span></h3>
     <ul>
@@ -32,7 +32,7 @@ function Subscription() {
     </ul>
     <button>Add to Cart</button>
 </div>
-<div class="price-col">
+<div class="price-coll">
     <p>Platinum</p>
     <h3>10$ <span>/ month</span></h3>
     <ul>
