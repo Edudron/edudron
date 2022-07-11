@@ -2,7 +2,17 @@ import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import "../PageCss/Login.css";
 
-function Login() {
+ 
+const Login = () => {
+  const [user, setUser] = useState ({
+    name: "",
+    email: "",
+    phone: "",
+    address: ""
+    
+  });
+
+
   const [errorMessages, setErrorMessages] = useState({});
   const [isSubmitted, setIsSubmitted] = useState(false);
   

@@ -32,7 +32,7 @@ export default function Navbar(props) {
         href="#"
         data-bs-toggle="dropdown"
         data-bs-auto-close="outside"
-        >Colleges</a
+        >Colleges </a
       >
       <div class="dropdown-menu shadow" >
         <div class="mega-content px-md-4">
@@ -113,7 +113,7 @@ export default function Navbar(props) {
         href="#"
         data-bs-toggle="dropdown"
         data-bs-auto-close="outside"
-        >Services</a
+        >Services </a
       >
       <div class="dropdown-menu shadow">
         <div class="mega-content px-md-4">

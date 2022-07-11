@@ -32,11 +32,11 @@ export default function Footer() {
 			  Datagami is a new age digital technology, consulting and effective business process management service company. Whelp our customers to align their business with new age digital technologies such as artificial intelligencemachine learning, deep learning, Big data analytics, cyber security, robotics process automation, and blockchain.
 		    </p>
 		<div class="footer-icons">
+		<a href="#"><i class="fa fa-twitter"></i></a>
+		<a href="https://github.com/Edudron"><i class="fa fa-github"></i></a>
       <a href="#"><i class="fa fa-instagram"></i></a>
-			<a href="#"><i class="fa fa-facebook"></i></a>
-			<a href="#"><i class="fa fa-twitter"></i></a>
-			<a href="#"><i class="fa fa-linkedin"></i></a>
-			<a href="#"><i class="fa fa-github"></i></a>
+		<a href="#"><i class="fa fa-facebook"></i></a>
+		<a href="#"><i class="fa fa-linkedin"></i></a>
 		</div>
 	</div>
 	<section>© 2022 Copyright: DataGami <span>All rights reserved</span></section>
