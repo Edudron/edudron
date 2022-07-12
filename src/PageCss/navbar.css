@@ -223,11 +223,11 @@ footer a{
 	#sign-up:not(:disabled):active {
 	  transform: translateY(.125rem);
 	}
-.Login-signup{
+/* .Login-signup{
 	word-spacing: 10px;
 	margin-right: 0;
 	padding-right: 0%;
-	}
+	} */
 
 #colorss{
 	font-size: 13px;

@@ -5,15 +5,19 @@ import "./PageCss/Home.css";
 import "./PageCss/footer.css";
 import "./PageCss/subscription.css";
 import Navbar from "./components/Navbar";
-import Login from "./loginpage/Login";
-import Signup from "./loginpage/Signup";
+import ContactUs from "./components/ContactUs";
+import Login from "./loginpage/login";
+import Signup from "./loginpage/signup";
 import DemoCreater from "./components/DemoCreater";
 import Home from "./Home";
+import Footer from "./components/Footer";
+
 // import AboutUs from './components/AboutUs'; // <------ {CSS issues}
 
 function App() {
   return (
     < >
+    <Navbar/>
       
        <Routes>
         <Route exact path="/" element={<Home />} />
@@ -21,8 +25,9 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/contact" element={<Signup />} />
-        <Route path="/creater" element={<DemoCreater />} /> */}
+        <Route path="/creater" element={<DemoCreater />} />
         {/* <Route path="/about" element={<AboutUs/>} /> */}
+        <Route path="/contactus" element={<ContactUs/>} />
          <Route
           path="*"
           element={
@@ -32,6 +37,7 @@ function App() {
           }
         />
       </Routes>  
+      <Footer/>
     </>
   );
 }
