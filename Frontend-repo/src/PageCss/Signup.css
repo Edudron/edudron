@@ -17,11 +17,17 @@ body{
 
 .form-body{
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .form-title {
     font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .form-body > *{
@@ -33,12 +39,15 @@ body{
 
 .form__label{
     width: 50%;
+    margin-bottom: 10px;
 }
 
 .form_input{
     width: 60%;
+    margin-bottom: 10px;
 }
 
 .end{
     text-align: center;
+    margin-top: 20px;
 }
