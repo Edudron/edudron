@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import SearchBar from "./components/SearchBar";
 import CollegeData from "./Data.json";
+import Bot from "./components/Edu-DronBot/Bot";
 function Home() {
   return (
     <>
@@ -15,12 +16,16 @@ function Home() {
         <UpperTitle />
       </div>
       <div className="Searchalign">
+        
+        
       <SearchBar placeholder="Search a College Name" data={CollegeData}/>
       </div>
       
       <div className="abhi">
         <Subscription />
       </div> 
+      <Bot/>
+      
 
 
     </>

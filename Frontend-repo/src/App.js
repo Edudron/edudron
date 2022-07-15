@@ -4,6 +4,7 @@ import "./PageCss/navbar.css";
 import "./PageCss/Home.css";
 import "./PageCss/footer.css";
 import "./PageCss/subscription.css";
+import "./PageCss/bot.css";
 import Navbar from "./components/Navbar";
 // import ContactUs from "./components/ContactUs";
 import Login from "./loginpage/Login";
