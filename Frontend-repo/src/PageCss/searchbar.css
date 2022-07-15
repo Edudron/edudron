@@ -1,3 +1,4 @@
+
 .Searchalign{
   text-align: center;
   margin-top: 60px;
@@ -21,6 +22,70 @@
   box-sizing: border-box;
   box-shadow: 0 8px 12pxrgba(86,141,187,1);
   border-radius: 100px;
+  display: flexbox;
+  
+}
+
+@media screen and (max-width:1200px){
+  .search input {
+    padding-top: 300px;
+    border-radius: 60px;
+    font-size: 18px;
+    padding: 15px;
+    height: 50px;
+    width: 800px;
+    text-align: center;
+    padding: 9px 9px 9px 24px;
+    background: #fff;
+    border: 2px solid #bababa;
+    box-sizing: border-box;
+    box-shadow: 0 8px 12pxrgba(86,141,187,1);
+    border-radius: 100px;
+    display: flexbox;
+    
+  }
+  
+}
+
+@media screen and (max-width:1000px){
+  .search input {
+    padding-top: 300px;
+    border-radius: 60px;
+    font-size: 18px;
+    padding: 15px;
+    height: 50px;
+    width: 600px;
+    text-align: center;
+    padding: 9px 9px 9px 24px;
+    background: #fff;
+    border: 2px solid #bababa;
+    box-sizing: border-box;
+    box-shadow: 0 8px 12pxrgba(86,141,187,1);
+    border-radius: 100px;
+    display: flexbox;
+    
+  }
+  
+}
+
+@media screen and (max-width:500px){
+  .search input {
+    padding-top: 300px;
+    border-radius: 60px;
+    font-size: 18px;
+    padding: 15px;
+    height: 50px;
+    width: 350px;
+    text-align: center;
+    padding: 9px 9px 9px 24px;
+    background: #fff;
+    border: 2px solid #bababa;
+    box-sizing: border-box;
+    box-shadow: 0 8px 12pxrgba(86,141,187,1);
+    border-radius: 100px;
+    display: flexbox;
+    
+  }
   
 }
    

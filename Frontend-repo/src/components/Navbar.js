@@ -19,11 +19,11 @@ export default function Navbar(props) {
             <div class="collapse navbar-collapse" id="navbar-content">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
     <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#">Home</a>
+      <Link class="nav-link active" aria-current="page" to="/home">Home</Link>
     </li>
     <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#"
-        >About</a
+      <Link class="nav-link active" aria-current="page" to="about"
+        >About</Link
       >
     </li>
     <li class="nav-item dropdown dropdown-mega position-static">
@@ -184,21 +184,25 @@ export default function Navbar(props) {
         </div>
       </div>
     </li>
-    <li class="nav-item">
-      <a
-        class="nav-link disabled"
-        href="#"
+    <li class="nav-item ">
+      <Link
+        class="nav-link active"
+        to="/contactus"
         tabindex="-1"
         aria-disabled="true"
-        >Contact Us</a
-      >
+        >Contact Us</Link>
     </li>
   </ul>
   <nn class="Login-signup">
+  <Link to="/login">
   <button id="login"  href="./loginpage/Login.js">
     Login
+    
   </button>
+  </Link>
+  <Link to="/signup">
   <button id="sign-up"  href="#Login">Sign Up</button>
+  </Link>
 </nn>
 </div>
 </div>

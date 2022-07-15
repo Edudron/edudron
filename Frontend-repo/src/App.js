@@ -12,6 +12,7 @@ import Signup from "./loginpage/Signup";
 import DemoCreater from "./components/DemoCreater";
 import Home from "./Home";
 import Footer from "./components/Footer";
+import ContactUs from './components/ContactUs'; 
 
 // import AboutUs from './components/AboutUs'; // <------ {CSS issues}
 
