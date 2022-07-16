@@ -3,18 +3,14 @@ import "./PageCss/App.css";
 import "./PageCss/navbar.css";
 import "./PageCss/Home.css";
 import "./PageCss/footer.css";
-import "./PageCss/subscription.css"; 
-import './PageCss/slider.css';
+import "./PageCss/subscription.css";
 import Navbar from "./components/Navbar";
 // import ContactUs from "./components/ContactUs";
-import './PageCss/searchbar.module.css';
 import Login from "./loginpage/Login";
 import Signup from "./loginpage/Signup";
 import DemoCreater from "./components/DemoCreater";
 import Home from "./Home";
 import Footer from "./components/Footer";
-import ContactUs from './components/ContactUs'; 
-import Bot from "./components/Bot";
 
 // import AboutUs from './components/AboutUs'; // <------ {CSS issues}
 
@@ -40,10 +36,7 @@ function App() {
             </div>
           }
         />
-      </Routes>
-
-        <Bot/>
-    
+      </Routes>  
       <Footer/>
     </>
   );

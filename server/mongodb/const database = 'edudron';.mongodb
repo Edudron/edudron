@@ -1,0 +1,3 @@
+use('edudron')
+
+db.colleges.find({})

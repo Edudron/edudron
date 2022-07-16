@@ -1,5 +1,31 @@
 {
+  "name": "edudron-website",
+  "version": "1.0.0",
+  "description": "The main website for Edudron",
+  "main": "index.js",
+  "devDependencies": {
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhishekvrt/edudron-website.git"
+  },
+  "author": "Abhishekvrt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhishekvrt/edudron-website/issues"
+  },
+  "homepage": "https://github.com/Abhishekvrt/edudron-website#readme",
+  "keywords": [],
   "dependencies": {
-    "firebase": "^9.9.0"
+    "react": "^18.2.0",
+    "react-scripts": "^5.0.1"
   }
 }
