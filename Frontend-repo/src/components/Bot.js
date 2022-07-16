@@ -1,5 +1,5 @@
 import React from 'react';
-// import ".../PageCss/bot.css";
+import "../PageCss/bot.css";
 function Bot() {
   return (
     <div><input type="checkbox" id="check"/> <label class="chat-btn" for="check"> <i class="fa fa-commenting-o comment"></i>Talk to EduBot</label>
