@@ -195,13 +195,13 @@ export default function Navbar(props) {
   </ul>
   <nn class="Login-signup">
   <Link to="/login">
-  <button id="login"  href="./loginpage/Login.js">
+  <button id="login">
     Login
     
   </button>
   </Link>
   <Link to="/signup">
-  <button id="sign-up"  href="#Login">Sign Up</button>
+  <button id="sign-up">Sign Up</button>
   </Link>
 </nn>
 </div>
