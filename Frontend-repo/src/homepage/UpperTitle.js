@@ -4,10 +4,13 @@ import '../PageCss/UpperTitle.css'
 
 function UpperTitle() {
   return (
+    <>
     <div className="UpperTitle">
-      <h1>Welcome To EduDron Community Everyone</h1>
-      <h4>This is Abhishek and Team</h4>
+      <h1>Welcome To EduDron Community</h1>
     </div>
+    <div className="container-upper">
+        </div>
+    </>
   )
 }
 
