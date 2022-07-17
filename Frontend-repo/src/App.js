@@ -42,7 +42,7 @@ function App() {
         />
       </Routes>
 
-        //<Bot/>
+  {/* <Bot/> */}
     
       <Footer/>
     </>
