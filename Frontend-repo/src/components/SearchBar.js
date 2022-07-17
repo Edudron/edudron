@@ -1,45 +1,66 @@
-import React, {useState} from 'react'
-// import SearchIcon from '@mui/icons-material/Search';
-import "../PageCss/searchbar.css";
+import React, { useState } from "react";
+// import "../PageCss/searchbar.css";
+import styles from '../PageCss/searchbar.module.css';
+import SearchIcon from '@mui/icons-material/Search';
+import CloseIcon from '@mui/icons-material/Close';
 
-function SearchBar({placeholder,data }) {
+function SearchBar({ placeholder, data }) {
   const [filteredData, setFilteredData] = useState([]);
-  const handleFilter = (event) =>{
-   const searchWord = event.target.value
-   const newFilter =data.filter((value) =>{
-    return value.title.toLowerCase().includes(searchWord.toLowerCase());
-   });
-   if (searchWord=="") {
-    setFilteredData([]);
-   }else{
-    setFilteredData(newFilter);
-   }
-  
+  const [wordEntered, setWordEntered] = useState("");
+
+  const handleFilter = (event) => {
+    const searchWord = event.target.value;
+    setWordEntered(searchWord);
+    const newFilter = data.filter((value) => {
+      return value.title.toLowerCase().includes(searchWord.toLowerCase());
+    });
+
+    if (searchWord === "") {
+      setFilteredData([]);
+    } else {
+      setFilteredData(newFilter);
+    }
   };
+
+  const clearInput = () => {
+    setFilteredData([]);
+    setWordEntered("");
+  };
+
   return (
-    <div className='search'>
-        <div className='searchInput'>
-            <input type="text" placeholder={placeholder} onChange={handleFilter} />
-            
-            <div className='searchIcon'>
-              {/* <SearchIcon /> */}
-            
-        </div>
-        </div>
-        {filteredData.length != 0 && (
-        <div className="dataResult">
-          {filteredData.map((value, key) =>{
-            return(
-              <a className="dataIteam" href={value.link} target="_blank">
+    <div className={styles.search}>
+      <div className={styles.searchInputs}>
+        
+        <input
+        
+          type={styles.text}
+          placeholder={placeholder}
+          value={wordEntered}
+          onChange={handleFilter}
+        />
+         
+        <div className={styles.searchIcon} >
           
-              <p>{value.title}</p>
+          {filteredData.length === 0 ? (
+            <SearchIcon />
+          ) : (
+            <CloseIcon id="clearBtn" onClick={clearInput} />
+          )}
+        </div>
+      </div>
+      {filteredData.length != 0 && (
+        <div className={styles.dataResult}>
+          {filteredData.slice(0, 15).map((value, key) => {
+            return (
+              <a className={styles.dataItem} href={value.link} target="_blank">
+                <p>{value.title} </p>
               </a>
             );
           })}
         </div>
-)}
-        </div>
+      )}
+    </div>
   );
 }
 
-export default SearchBar
+export default SearchBar;
