@@ -19,11 +19,13 @@
   "homepage": "https://github.com/Abhishekvrt/edudron-backend#readme",
   "dependencies": {
     "body-parser": "^1.20.0",
+    "bootstrap": "^5.1.3",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "firebase": "^9.9.0",
     "minimist": "^1.2.6",
-    "mongoose": "^6.4.4"
+    "mongoose": "^6.4.4",
+    "react-bootstrap": "^2.4.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
