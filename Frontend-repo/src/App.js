@@ -31,7 +31,7 @@ function App() {
         <Route path="/contact" element={<Signup />} />
         <Route path="/creater" element={<DemoCreater />} />
         {/* <Route path="/about" element={<AboutUs/>} /> */}
-        {/* <Route path="/contactus" element={<ContactUs/>} /> */}
+        <Route path="/contactus" element={<ContactUs/>} />
          <Route
           path="*"
           element={

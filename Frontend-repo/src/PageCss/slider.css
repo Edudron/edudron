@@ -1,23 +1,27 @@
 .slidercontainer {
   background-color: rgb(255, 255, 255);
-  margin-top: 4vh;
+  /* margin-top: 4vh; */
   overflow: auto;
   white-space: nowrap;
   margin-bottom: 100px;
-  /* -ms-overflow-style: none; */
+  /* position: relative; */
+  /* margin: top 0px; ; */
+  -ms-overflow-style: none;
 }
 
 .features-colleges {
-  margin-top: 100px;
-  padding: 0;
+  margin-left: 15px;
+  margin-bottom: 20px;
 }
 .card {
   margin-left: 10px;
   margin-left: 10px;
   /* justify-content: space-evenly; */
-  overflow: hidden;
-  display: -ms-inline-flexbox;
+  /* overflow: hidden; */
+  /* display: -ms-inline-flexbox; */
   display: inline-block;
-  white-space: nowrap;
-  text-align: center;
+  align-content: center;
+  /* white-space: nowrap; */
+  /* text-align: center; */
 }
+

@@ -9,23 +9,23 @@ import SearchBar from "./components/SearchBar";
 import CollegeData from "./Data.json";
 import Bot from "./components/Bot.js";
 import Slider from "./homepage/Slider";
+import Carousel from "./homepage/Carousel.js";
+import News from "./homepage/News";
 function Home() {
   return (
     <>
       {/* <Navbar/> */}
-      <div className="Home">
+   
         <UpperTitle />
-      </div>
+      <Carousel/>
       <SearchBar placeholder="Search a College Name" data={CollegeData} />
-      <div className="slider">
-      <Slider/>
-      </div>
 
-     
+      <Slider/>
       
 
 
         <Subscription />
+        <News/>
        
   
       

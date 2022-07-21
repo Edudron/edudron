@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: sans-serif;
+}
+.backgroundcontactus{
+    width: 100%;
+    height: 100%;
+    background: rgb(0,48,143);
+    background: linear-gradient(90deg, rgba(0,48,143,1) 41%, rgba(255,215,0,1) 41%);
+}
+.contactus{
+    position: relative;
+    width: 100%;
+    padding: 40px 100px;
+}
+.contactus .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.contactus .title h2{
+    columns: #fff;
+    font-weight: 500;
+}
+
+.box{
+    position: relative;
+}
+.form{
+    grid-area: form;
+}
+.info{
+    grid-area: info;
+}
+.map{
+    grid-area: map;
+}
+.contact{
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 35px;
+}
+.box{
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 5fr 4fr;
+    grid-template-areas: 
+    "form info"
+    "form map";
+    grid-gap: 20px;
+    margin-top: 20px;
+
+}
+.contact h3{
+    color: black;
+    font: weight 500px; ;
+    font-size: 1.4em;
+    margin-bottom: 10px;   
+}
+.formbox{
+    position: relative;
+    width: 100%;
+}
+.formbox .row50{
+    display: flex;
+    gap: 20px;
+}
+.inputbox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 50%;
+}
+.formbox .row100 .inputbox{
+    width: 100%;
+}
+.inputbox span{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500px;
+}
+.inputbox input{
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border-radius: 0;
+    box-sizing: 20px;
+    border: 1px solid #333;
+}
+.inputbox textarea{
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #333;
+    resize: none;
+    min-height: 400px;
+    margin-bottom: 10px;
+} 
+.inputbox input[type="submit"]
+{
+    background:rgb(0,48,143) ;
+    color: #fff;
+    font-size: 1.1em;
+    max-width: 120px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.inputbox ::placeholder{
+    color: #999;
+}
+/* info  */
+.info{
+    background: rgb(0,48,143);
+}
+.info h3{
+    color: #fff;
+}
+.info .infobox div a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.info .infobox div span{
+    min-width: 40px;     
+    height: 40px;
+    color: #fff;
+    background: #18b7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-radius: 0%;
+    margin-right: 15px;
+}
+.info .infobox div p{
+    color: #fff;
+}
+.info .infobox div a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;  
+}
+.social{
+    margin-top: 40px;
+    display: flex;     
+}
+.social li a{
+    color: #fff;
+    font-size: 2em;
+    color: #ccc;
+    margin-left: 10px;
+}
+.social li a:hover{
+    color: #fff;
+}
+
+.map{
+    padding: 0%;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width:991px) {
+    .contactus{
+        padding: 20px;
+        max-width: 300px;
+    }
+    .box{
+        grid-template-columns: 1fr ;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "form" 
+        "info" 
+        "map" ;
+    }
+    .info{
+       max-width: 355px;
+    }
+    .map{
+        min-height: 300px ;
+        max-width: 355px;
+    }
+    .formbox .row50{
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+
+}
