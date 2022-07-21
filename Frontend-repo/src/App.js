@@ -11,7 +11,7 @@ import './PageCss/searchbar.module.css';
 import Login from "./loginpage/Login";
 import Signup from "./loginpage/Signup";
 import DemoCreater from "./components/DemoCreater";
-import Home from "./Home";
+import Home from "./Dashboard";
 import Footer from "./components/Footer";
 import ContactUs from './components/ContactUs'; 
 import Bot from "./components/Bot";
@@ -31,7 +31,7 @@ function App() {
         <Route path="/contact" element={<Signup />} />
         <Route path="/creater" element={<DemoCreater />} />
         {/* <Route path="/about" element={<AboutUs/>} /> */}
-        {/* <Route path="/contactus" element={<ContactUs/>} /> */}
+        <Route path="/contactus" element={<ContactUs/>} />
          <Route
           path="*"
           element={
